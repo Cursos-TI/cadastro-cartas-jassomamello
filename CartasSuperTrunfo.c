@@ -66,12 +66,12 @@ int main() {
   printf("\nO estado da cidade 1 é %s, o código da carta da cidade 1 é %s, a cidade 1 escolhida é %s,\nSua população é de, aproximadamente, %.1f milhões de habitantes \n", estado1, código1, nome1, populacao1);
   printf("A área desta cidade é de %.2f km², seu PIB é de R$ %.2f bilhões ", area1, PIB1);
   printf("e possui mais de %d pontos turísticos \n", pontos1);
-  printf("Sua densidade populacional é de %2f hab/km² e seu PIB per capita é de R$%.2f por ano. \n", densidade1, capita1);
+  printf("Sua densidade populacional é de %.2f hab/km² e seu PIB per capita é de R$%.2f por ano. \n", densidade1, capita1);
 
   printf("\nO estado da cidade 2 é %s, o código da carta da cidade 2 é %s, a cidade 2 escolhida é %s,\nSua população é de, aproximadamente, %.1f milhões de habitantes \n", estado2, código2, nome2, populacao2);
   printf("A área desta cidade é de %.2f km², seu PIB é de R$ %.2f bilhões ", area2, PIB2);
   printf("e possui mais de %d pontos turísticos \n", pontos2);
-  printf("Sua densidade populacional é de %2f hab/km² e seu PIB per capita é de R$%.2f por ano. \n \n", densidade2, capita2);
+  printf("Sua densidade populacional é de %.2f hab/km² e seu PIB per capita é de R$%.2f por ano. \n \n", densidade2, capita2);
 
 return 0;
 } 
